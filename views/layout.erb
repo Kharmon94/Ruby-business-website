@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Web Development Supergroup</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<header>
+	<div class="container-fluid">
+		<div class="row">
+			<nav>
+				<ul class="buttons">
+					<% settings.nav_buttons.each do |buttons| %>
+						<li><a href="<%= buttons[:route] %>"><%= buttons[:title]%></a></li>
+					<% end %>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+
+<%= yield %>
+
+<!-- Footer -->
+
+
+	<script src="main.js"></script>
+</body>
+</html>

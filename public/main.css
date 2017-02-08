@@ -1,0 +1,22 @@
+
+body {
+
+}
+
+.buttons li {
+	list-style-type: none;
+	float: left;
+	padding: 5px 15px;
+	border: 1px solid grey;
+
+}
+
+.buttons li:hover{
+
+
+}
+
+
+.about img {
+
+}
