@@ -11,6 +11,7 @@
 		<div class="row">
 			<nav>
 				<ul class="buttons">
+					<li class="logo">Logo</li>
 					<% settings.nav_buttons.each do |buttons| %>
 						<li><a href="<%= buttons[:route] %>"><%= buttons[:title]%></a></li>
 					<% end %>
@@ -25,7 +26,8 @@
 
 <!-- Footer -->
 
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="main.js"></script>
+
 </body>
 </html>
