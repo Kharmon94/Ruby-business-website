@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'geolocater'
-require 'rainbow'
+
 
 set :nav_buttons, [{title: "Home", route: '/'}, {title: "About", route: '/about'}, {title: "Portfolio", route: '/portfolio'}, {title: "Contact", route: '/contact'}]
 
