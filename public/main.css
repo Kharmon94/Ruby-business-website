@@ -39,7 +39,14 @@ div {
 
 }
 
+.project .projectDesc{
+	/*display: none;*/
+}
+
 .projectButtons{
 	height: 20px;
-	width: 20px;
+	width: 150px;
+}
+div .projectButtons{
+	/*display: none;*/
 }
