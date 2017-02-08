@@ -1,15 +1,23 @@
-
+#background{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	opacity: 0.75;
+}
 body {
 
 }
-header {
+
+/*header {
 	margin-bottom: 50px;
-}
-header nav {
+}*/
+/*header nav {
 	padding-top: 20px;
 	padding-right: 20px;
-}
-
+}*/
+/*
 
 .buttons li {
 	list-style-type: none;
@@ -24,12 +32,12 @@ header nav {
 }
 .buttons .logo{
 	float: left;
-}
+}*/
 
-div {
+/*div {
 	height: 100px;
 	border: 1px solid grey;
-}
+}*/
 .apifeed {
 	float: right;
 	height: 400px;
@@ -49,4 +57,19 @@ div {
 }
 div .projectButtons{
 	/*display: none;*/
+}
+#description{
+	margin: 1.5%;
+}
+#descriptionExtended{
+	margin: 1.5%;
+}
+#miniLogo{
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+#homeLogo{
+	width: 55%;
+	height: 55%;
 }
