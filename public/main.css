@@ -10,7 +10,6 @@ header nav {
 	padding-right: 20px;
 }
 
-
 .buttons li {
 	list-style-type: none;
 	float: right;
@@ -38,15 +37,30 @@ div {
 .about img {
 
 }
+.projectGif, .projectButtons {
+	cursor: pointer;
+}
 
 .project .projectDesc{
 	/*display: none;*/
 }
-
+a {
+	height: 100px;
+	width: 100px;
+}
 .projectButtons{
 	height: 20px;
 	width: 150px;
 }
 div .projectButtons{
 	/*display: none;*/
+}
+.projName01 .projectGif{
+	background-image: url('homerStill.png');
+	background-size: cover;
+}
+.projName01 .projectGif:hover {
+	background-image: url('homer.gif');
+	background-size: cover;
+	
 }

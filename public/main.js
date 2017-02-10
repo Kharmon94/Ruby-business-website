@@ -15,11 +15,12 @@ var projectVotes = []
 projectGif = document.querySelectorAll(".projectGif img");
 projectButtons = document.querySelectorAll(".projectButtons");
 
-projectGif.forEach(function(hover){
-	hover.addEventListener("hover", function(event){
+projectGif.forEach(function(btnClick){
+	btnClick.addEventListener("click", function(event){
 		event.preventDefault();
-
+		event.target.child
 	})
-}
+})
+
 
 
