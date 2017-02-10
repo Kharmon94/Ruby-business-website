@@ -10,13 +10,6 @@ body {
 
 }
 
-/*header {
-	margin-bottom: 50px;
-}*/
-/*header nav {
-	padding-top: 20px;
-	padding-right: 20px;
-}*/
 
 .buttons li {
 	list-style-type: none;
@@ -50,20 +43,20 @@ body {
 }
 
 .project .projectDesc{
-	/*display: none;*/
+	display: none;
 }
-a {
-	height: 100px;
-	width: 100px;
-}
+/*
 .projectButtons{
 	height: 20px;
 	width: 150px;
 }
 div .projectButtons{
-	/*display: none;*/
+	display: none;
 }
-/*
+*/
+.projectGif{
+	height: 100px;
+}
 .projName01 .projectGif{
 	background-image: url('homerStill.png');
 	background-size: cover;
@@ -73,7 +66,6 @@ div .projectButtons{
 	background-size: cover;
 	
 }
-*/
 #description{
 	margin: 1.5%;
 }
@@ -89,4 +81,3 @@ div .projectButtons{
 	width: 55%;
 	height: 55%;
 }
-

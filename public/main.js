@@ -8,17 +8,18 @@
 
 // use querySelectorAll.forEach to animate each project
 
-var projectVotes = []
+// var projectVotes = []
 
 
 
-projectGif = document.querySelectorAll(".projectGif img");
-projectButtons = document.querySelectorAll(".projectButtons");
+projectGif = document.querySelectorAll(".projectGif");
+// projectButtons = document.querySelectorAll(".projectButtons");
 
 projectGif.forEach(function(btnClick){
 	btnClick.addEventListener("click", function(event){
 		event.preventDefault();
-		event.target.child
+		var displayDesc = event.target.nextElementSibling;
+		displayDesc.style.display = "block";
 	})
 })
 
