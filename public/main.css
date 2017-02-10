@@ -64,7 +64,6 @@ div .projectButtons{
 .projName01 .projectGif:hover {
 	background-image: url('homer.gif');
 	background-size: cover;
-	
 }
 #description{
 	margin: 1.5%;
