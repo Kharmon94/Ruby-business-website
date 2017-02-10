@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'geolocater'
+require 'SendGrid'
 
 
 set :nav_buttons, [ {title: "Contact", route: '/contact'}, {title: "Portfolio", route: '/portfolio'}, {title: "About", route: '/about'}, {title: "Home", route: '/'}]
