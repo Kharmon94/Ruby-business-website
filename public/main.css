@@ -17,7 +17,6 @@ body {
 	padding-top: 20px;
 	padding-right: 20px;
 }*/
-/*
 
 .buttons li {
 	list-style-type: none;
@@ -46,11 +45,17 @@ body {
 .about img {
 
 }
+.projectGif, .projectButtons {
+	cursor: pointer;
+}
 
 .project .projectDesc{
 	/*display: none;*/
 }
-
+a {
+	height: 100px;
+	width: 100px;
+}
 .projectButtons{
 	height: 20px;
 	width: 150px;
@@ -58,6 +63,17 @@ body {
 div .projectButtons{
 	/*display: none;*/
 }
+/*
+.projName01 .projectGif{
+	background-image: url('homerStill.png');
+	background-size: cover;
+}
+.projName01 .projectGif:hover {
+	background-image: url('homer.gif');
+	background-size: cover;
+	
+}
+*/
 #description{
 	margin: 1.5%;
 }
@@ -73,3 +89,4 @@ div .projectButtons{
 	width: 55%;
 	height: 55%;
 }
+
