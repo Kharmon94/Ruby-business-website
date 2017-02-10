@@ -35,16 +35,11 @@ body {
 }*/
 
 /*div {
-	height: 100px;
-	border: 1px solid grey;
+	border: 1px solid black;
 }*/
 .apifeed {
 	float: right;
 	height: 400px;
-}
-
-.about img {
-
 }
 
 .project .projectDesc{
@@ -70,6 +65,40 @@ div .projectButtons{
 	align-items: center;
 }
 #homeLogo{
-	width: 55%;
-	height: 55%;
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+.homeDis{
+	width: 100%;
+	margin: 10%;
+	padding: 10%;
+	font-size: 15px;
+	color: white;
+	float: right;
+}
+#aboutLogo{
+	width: 115%;
+	height: 115%;
+	float: left;
+	margin-right: 10%;
+}
+#aboutCompany{
+	width: 100%;
+	margin: 10%;
+	padding: 10%;
+	font-size: 15px;
+}
+.devPic{
+	width: 80%;
+	height: 80%;
+	float: left;
+	margin: 15%;
+	border: solid;
+	border-color: black;
+}
+.devDis{
+	margin: 10%;
+	size: 90%
+	font-size:15%;
 }
