@@ -93,11 +93,14 @@ div .projectButtons{
 	width: 100%;
 	/*margin: 10%;*/
 	padding: 10%;
-	font-size: 15px;
-	color: black;
-	/*float: right;*/
-	text-align: justify;
 
+	font-size: 25px;
+	color: darkblue;
+	float: right;
+/* 	font-size: 15px;
+	color: black; */
+	/*float: right;*/
+/* 	text-align: justify; */
 }
 #aboutLogo{
 	width: 115%;
@@ -123,4 +126,29 @@ div .projectButtons{
 	margin: 10%;
 	size: 90%
 	font-size:15%;
+}
+.labelC{
+	font-size: 150%;
+	margin: 1%;
+}
+.inputF{
+	margin: 5%;
+}
+#cmmntBox{
+	width: 90%;
+	height: 180%;
+}
+#subBox{
+	margin-left: 10%;
+}
+#button{
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 50%;
 }
